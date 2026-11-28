@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <TG_SettingsCategory>Touch Grass: Playtime Limiter</TG_SettingsCategory>
+
+  <TG_AlertTitleTimeout>Touch grass</TG_AlertTitleTimeout>
+  <TG_AlertTitleEarlyReboot>You did not stop for long enough</TG_AlertTitleEarlyReboot>
+  <TG_AlertTitleOutsideHours>Outside permitted playing hours</TG_AlertTitleOutsideHours>
+
+  <TG_AlertDescSnoozeChoice>Session elapsed: {0}.
+Target: {1}.
+
+A required stop-or-snooze decision is open. Snoozes remaining: {2}.</TG_AlertDescSnoozeChoice>
+  <TG_AlertDescNoSnoozes>Session elapsed: {0}.
+Target: {1}.
+
+No snoozes remain. RimWorld is autosaving and quitting.</TG_AlertDescNoSnoozes>
+  <TG_AlertDescEarlyReboot>RimWorld was restarted too soon after the previous stop warning. Close the game and leave it closed for at least {0} minutes.</TG_AlertDescEarlyReboot>
+  <TG_AlertDescOutsideHours>The current real-world time is outside every permitted daily play window configured in this mod's settings.</TG_AlertDescOutsideHours>
+  <TG_AlertDescTest>This is a manual warning test. It cannot autosave or close RimWorld. Left-click the alert or use Mod Settings to clear the test.</TG_AlertDescTest>
+
+  <TG_MsgRepeated>Touch grass. {0}</TG_MsgRepeated>
+  <TG_MsgDevMode>[Touch Grass] Autosave completed. RimWorld was not closed because developer mode is enabled.</TG_MsgDevMode>
+  <TG_MsgCouldNotAutosave>[Touch Grass] Could not autosave, so RimWorld was not closed.</TG_MsgCouldNotAutosave>
+  <TG_MsgAutosaveAndQuit>[Touch Grass] Autosaving and closing RimWorld...</TG_MsgAutosaveAndQuit>
+  <TG_MsgForceQuitting>The final snooze has ended. Autosaving and closing RimWorld...</TG_MsgForceQuitting>
+  <TG_MsgTestEnabled>[Touch Grass] Warning test enabled.</TG_MsgTestEnabled>
+  <TG_MsgTestCleared>[Touch Grass] Warning test cleared.</TG_MsgTestCleared>
+</LanguageData>
